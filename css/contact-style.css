@@ -7,7 +7,7 @@ body {
 
 header.ex-2-header {
     padding: 100px 0;
-    background: #FFC300;
+    background: #A1227E;
     color: #fff;
 }
 
@@ -43,7 +43,7 @@ header.ex-2-header h1 {
 }
 
 .form-container .box:focus {
-    border-color: #FFC300;
+    border-color: #A1227E;
 }
 
 .form-container textarea.box {
@@ -53,7 +53,7 @@ header.ex-2-header h1 {
 
 .form-container .btn {
     display: inline-block;
-    background: #FFC300;
+    background: #A1227E;
     color: #fff;
     padding: 12px 24px;
     border: none;

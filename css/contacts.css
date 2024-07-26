@@ -1,0 +1,76 @@
+.contacts {
+    padding: 2rem 9%;
+    margin-top: 5rem;
+}
+
+.p .ptext {
+    color: #ffffff;
+}
+
+.contacts .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #f2f2f2;
+    font-size: 5rem;
+}
+
+.contacts .heading2 {
+    text-align: center;
+    margin-bottom: 10rem;
+    color: #f2f2f2;
+    font-size: 2rem;
+}
+
+.contacts .heading span {
+    color: #BE123C;
+}
+
+.contacts .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+
+.contacts .row .img {
+    flex: 1 1 10rem;
+}
+
+.contacts .row form {
+    flex: 1 1 40rem;
+}
+
+.contacts .row form .box {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    color: #797777;
+    border: 1px solid #ffffff;
+    transition: border-color 0.3s;
+}
+
+.contacts .row form .box:focus {
+    color: #BE123C;
+}
+
+.contacts .row form span {
+    color: #f2f2f2;
+    font-size: 1.6rem;
+}
+
+.btn {
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    background-color: #BE123C;
+    color: #f2f2f2;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f2f2f2;
+    color: #BE123C;
+}
